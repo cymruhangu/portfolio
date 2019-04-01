@@ -1,0 +1,102 @@
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body, main {margin:0;padding:0;height:100%;width:100%;}
+
+body{
+  /* font-family: 'Roboto', sans-serif; */
+  font-family: 'Open Sans Condensed', sans-serif;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(235, 221, 196);
+}
+
+.about {
+  position: absolute;
+  left: 8%;
+  top: 70px;
+  width: 60%;
+}
+
+.about hr {
+  position: relative;
+  left: 10%;
+}
+.about-name {
+  color: rgb(97, 16, 97);
+  font-weight: bold;
+  font-size: 115%;
+}
+
+.about-role {
+  font-style: italic;
+  font-weight: bold; 
+}
+
+.about-text {
+  font-size: 80%;
+  position: relative;
+  left: 12%;
+}
+
+header img{
+  position: absolute;
+  left: 10px;
+  top: 0px;
+  height: 80px;
+}
+
+.projects {
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  width: 80%;
+}
+
+.project {
+  display: flex;
+  margin-bottom: 10em;
+}
+
+.project a {
+  margin-right: 1em;
+  text-decoration: none;
+}
+
+a:hover{
+  font-weight: bold;
+}
+.screen-view img {
+  width: 100%;
+  height: auto;
+}
+
+.mobile-view img{
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+  margin-top: 90px;
+  margin-left: -25px;
+}
+.project-description {
+  padding: 0 10px;
+  font-size: 70%;
+}
+
+.projects .tech {
+  font-size: 200%;
+}
+.iconify {
+  margin-left: 10px;
+}
+
+.iconify .mongo {
+  font-size: 100%;
+}
+
+.quiz-app img{
+  border-radius: 20px;
+} 
