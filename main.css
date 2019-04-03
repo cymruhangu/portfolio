@@ -28,7 +28,7 @@ body{
 .about-name {
   color: rgb(97, 16, 97);
   font-weight: bold;
-  font-size: 115%;
+  font-size: 2em;
 }
 
 .about-role {
@@ -37,7 +37,7 @@ body{
 }
 
 .about-text {
-  font-size: 80%;
+  /* font-size: 100%; */
   position: relative;
   left: 12%;
 }
@@ -74,6 +74,10 @@ a:hover{
   height: auto;
 }
 
+.quiz-app .screen-view img{
+  border-radius: 27px;
+}
+
 .mobile-view img{
   width: 100%;
   height: auto;
@@ -83,7 +87,7 @@ a:hover{
 }
 .project-description {
   padding: 0 10px;
-  font-size: 70%;
+  font-size: 85%;
 }
 
 .projects .tech {
