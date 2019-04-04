@@ -37,7 +37,6 @@ body{
 }
 
 .about-text {
-  /* font-size: 100%; */
   position: relative;
   left: 12%;
 }
@@ -50,7 +49,7 @@ header img{
 }
 
 .projects {
-  position: absolute;
+  position: relative;
   top: 40%;
   left: 10%;
   width: 80%;
@@ -58,7 +57,7 @@ header img{
 
 .project {
   display: flex;
-  margin-bottom: 10em;
+  margin-bottom: 120px;
 }
 
 .project a {
@@ -81,7 +80,7 @@ a:hover{
 .mobile-view img{
   width: 100%;
   height: auto;
-  border-radius: 15px;
+  border-radius: 25px;
   margin-top: 90px;
   margin-left: -25px;
 }
@@ -97,10 +96,75 @@ a:hover{
   margin-left: 10px;
 }
 
-.iconify .mongo {
-  font-size: 100%;
+svg[data-icon="logos:jquery"] {
+  font-size: 15px;
+}
+svg[data-icon="logos:mongodb"] {
+  font-size: 18px;
+}
+
+svg[data-icon="logos:github"] {
+  font-size: 10px;
 }
 
 .quiz-app img{
   border-radius: 20px;
 } 
+
+footer {
+  position: relative;
+  top: 275px;;
+  height: 50 width: 100%;
+  text-align: center;
+  font-size: 1.5em;
+}
+@media screen and (max-width: 1100px){
+  .projects{
+    margin-top: 25px;
+  }
+  .project{
+    margin-bottom: 80px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .about {
+    position: absolute;
+    left: 10%;
+    top: 35px;
+    width: 75%;
+  }
+  .about-name{
+    font-size: 1.5em;
+    margin-left: 20px;
+  }
+  .about-text {
+    position: relative;
+    left: 8%;
+    font-size: 85%;
+  }
+  .projects {
+    top: 20%;
+    left: 10%;
+    width: 80%;
+  }
+  .project {
+    display: block;
+    margin-bottom: 80px;
+  }
+  .mobile-view {
+    display: none;
+  }
+  .project-description{
+    font-size: 80%;
+  }
+}
+
+@media screen and (max-width: 420px){
+  .about{
+    margin-bottom: 50px;
+  }
+  .projects {
+    top: 45%;
+  }
+}
