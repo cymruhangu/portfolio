@@ -115,6 +115,7 @@ footer {
   position: relative;
   top: 275px;;
   height: 50 width: 100%;
+  margin: 0 auto;
   text-align: center;
   font-size: 1.5em;
 }
