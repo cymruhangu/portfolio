@@ -201,11 +201,6 @@ footer .git {
     font-size: 80%;
   }
 }
-@media screen and (max-width: 630px){
-  .projects {
-    top: 35%;
-  }
-}
 
 @media screen and (max-width: 630px){
   .projects {
