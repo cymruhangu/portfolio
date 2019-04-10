@@ -51,7 +51,7 @@ hr {
 }
 .projects {
   position: relative;
-  top: 35%;
+  top: 40%;
   left: 10%;
   width: 80%;
 }
@@ -170,7 +170,7 @@ footer .git {
   }
 }
 
-@media screen and (max-width: 810px) {
+@media screen and (max-width: 850px) {
   .about {
     left: 10%;
     top: 35px;
@@ -202,7 +202,7 @@ footer .git {
   }
 }
 
-@media screen and (max-width: 630px){
+@media screen and (max-width: 645px){
   .projects {
     top: 40%;
   }
