@@ -207,7 +207,7 @@ footer .git {
     top: 40%;
   }
 }
-@media screen and (max-width: 400px){
+@media screen and (max-width: 450px){
   .about{
     margin-bottom: 50px;
   }
