@@ -10,8 +10,6 @@ body{
   font-family: 'Open Sans Condensed', sans-serif;
   height: 100%;
   width: 100%;
-  /* background-color:#F9F4E8; */
-  /* background-color:#FCF9F3; */
 }
 
 .about {
@@ -160,9 +158,8 @@ footer .git {
   margin-left: 1px;
 }
 
-@media screen and (max-width: 1065px){
+@media only screen and (max-width: 1065px){
   .projects{
-    margin-top: 25px;
     top: 45%;
   }
   .project{
@@ -170,7 +167,7 @@ footer .git {
   }
 }
 
-@media screen and (max-width: 850px) {
+@media only screen and (max-width: 850px) {
   .about {
     left: 10%;
     top: 35px;
@@ -198,32 +195,46 @@ footer .git {
     display: none;
   }
   .project-description{
-    font-size: 80%;
+    font-size: 60%;
   }
 }
 
-@media screen and (max-width: 645px){
+@media (max-width: 812px) and (max-height: 425px){
+  .projects {
+    top: 80%;
+  }
+}
+
+@media only screen and (max-width: 645px){
   .projects {
     top: 40%;
   }
 }
-@media screen and (max-width: 400px){
-  .about{
-    margin-bottom: 50px;
-  }
+
+@media (max-width:640px) and (max-height: 370px){
   .projects {
-    top: 48%;
+    top: 72%;
+  }
+}
+@media (min-width:360px) and (max-height: 650px){
+  .projects {
+    top: 90%;
+  }
+}
+@media only screen and (max-width: 420px){
+  .projects {
+    top: 51%;
   }
 }
 
-@media screen and (max-width: 361px){
+@media only screen and (max-width: 361px){
   .projects {
-    top:55%;
+    top:57%;
   }
 }
-@media screen and (max-width: 328px){
+@media (max-width: 320px){
   .projects {
-    top: 73%;
+    top: 78%;
   }
   footer{
     top: 300px;
