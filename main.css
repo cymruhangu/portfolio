@@ -13,16 +13,14 @@ body{
 }
 
 .about {
-  position: absolute;
-  left: 8%;
-  top: 8%;
-  width: 60%;
+  width: 75%;
 }
 
 .about-name {
   color: rgb(97, 16, 97);
   font-weight: bold;
   font-size: 2.1em;
+  margin-left: 75px;
 }
 
 .about-role {
@@ -35,11 +33,13 @@ body{
   left: 10%;
 }
 
+header {
+  margin-left: 25px;
+  margin-top: 20px;
+}
+
 header img{
-  position: absolute;
-  left: 10px;
-  top: 0px;
-  height: 80px;
+  height: 100px;
 }
 
 hr {
@@ -48,10 +48,8 @@ hr {
   border-radius: 10px;
 }
 .projects {
-  position: relative;
-  top: 48%;
-  left: 15px;
-  width: 97%;
+  width: 85%;
+  margin: 40px;
 }
 
 .project {
@@ -137,13 +135,8 @@ svg[data-icon="logos:github"] {
   font-size: 12px;
 }
 
-.quiz-app img{
-  border-radius: 20px;
-} 
 
 footer {
-  position: relative;
-  top: 470px;;
   height: 50 width: 100%;
   text-align: center;
   font-size: 1.5em;
@@ -174,23 +167,19 @@ footer .git {
 }
 @media only screen and (max-width: 1000px) {
   .about {
-    left: 10%;
-    top: 35px;
     width: 85%;
+    margin-right: 25px;
   }
   .about-name{
     font-size: 1.5em;
-    margin-left: 20px;
+    margin: 0 auto;
+    padding-left: 25px;
   }
   .about-text {
-    position: relative;
-    left: 0px;
     font-size: 85%;
   }
   .projects {
-    top: 35%;
-    left: 10%;
-    width: 85%;
+    margin: 0 auto;
   }
   .project {
     display: block;
@@ -249,11 +238,7 @@ footer .git {
   }
 }
 @media (max-width: 320px){
-  .projects {
-    top: 125%;
-  }
   footer{
-    top: 600px;
     font-size: 1em;
   }
 }
